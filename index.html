@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Asesmen Rekrutmen - PT Padepokan Tujuh Sembilan</title>
-    <!-- Favicon Logo (Solusi 2) -->
+    <!-- Favicon Logo -->
     <link rel="icon" type="image/jpeg" href="logo">
     <!-- Google Fonts & FontAwesome Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
-        /* Warna Dasar & Aksen Menyesuaikan Logo PT Padepokan Tujuh Sembilan (Navy, Biru Terang, Merah khas 79) */
         :root {
             --p79-navy: #0b1d3a;
             --p79-blue: #0098db;
@@ -48,7 +47,6 @@
             margin: 0 auto;
         }
 
-        /* HEADER NAVBAR */
         header {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
@@ -87,7 +85,6 @@
             font-weight: 600;
         }
 
-        /* HERO BANNER */
         .hero-banner {
             background: linear-gradient(135deg, var(--p79-navy) 0%, var(--p79-blue-dark) 100%);
             border-radius: var(--radius-lg);
@@ -189,7 +186,6 @@
             50% { transform: translateY(-8px); }
         }
 
-        /* TATA TERTIB (VERTIKAL) */
         .rules-card {
             background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
             border: 1px solid #fde68a;
@@ -230,7 +226,6 @@
             flex-shrink: 0;
         }
 
-        /* SECTION HEADER */
         .section-header {
             display: flex;
             align-items: center;
@@ -260,7 +255,6 @@
             letter-spacing: 0.5px;
         }
 
-        /* STEP CARDS */
         .step-card {
             background: var(--card-bg);
             border-radius: var(--radius-lg);
@@ -567,16 +561,13 @@
         </div>
     </div>
 
-    <!-- ========================================== -->
-    <!-- SECTION / HALAMAN 1: FORMULIR PENDAFTARAN -->
-    <!-- ========================================== -->
+    <!-- HAKAMAN 1 -->
     <div class="section-header">
         <h3><i class="fas fa-file-alt"></i> Halaman 1: Formulir Pendaftaran</h3>
         <span class="section-badge-pill">Langkah Utama</span>
     </div>
 
     <div class="step-card step-card-accent">
-        <div class="step-badge" style="display:none;"></div>
         <h4>Formulir Pendaftaran Rekrutmen <span class="badge-wajib">Wajib Diisi</span></h4>
         <div class="step-body">
             <p>Lengkapi data diri, latar belakang pendidikan, serta informasi profesional Anda melalui formulir pendaftaran resmi di bawah ini sebelum melanjutkan ke tahapan seleksi berikutnya.</p>
@@ -608,16 +599,13 @@
         </a>
     </div>
 
-    <!-- ========================================== -->
-    <!-- SECTION / HALAMAN 2: JADWAL INTERVIEW -->
-    <!-- ========================================== -->
+    <!-- HALAMAN 2 -->
     <div class="section-header">
         <h3><i class="fas fa-calendar-alt"></i> Halaman 2: Penentuan Jadwal Interview</h3>
         <span class="section-badge-pill">Langkah Kedua</span>
     </div>
 
     <div class="step-card step-card-accent">
-        <div class="step-badge" style="display:none;"></div>
         <h4>Penentuan Jadwal Interview HR <span class="badge-wajib">Wajib Diisi</span></h4>
         <div class="step-body">
             <p>Silakan tentukan jadwal sesi interview HR Anda melalui tautan di bawah ini. Pilih slot waktu yang paling tepat dan pastikan Anda dapat hadir tepat waktu.</p>
@@ -652,15 +640,12 @@
         </a>
     </div>
 
-    <!-- ========================================== -->
-    <!-- SECTION / HALAMAN 3: TATA TERTIB & ASESMEN -->
-    <!-- ========================================== -->
+    <!-- HALAMAN 3 -->
     <div class="section-header">
         <h3><i class="fas fa-layer-group"></i> Halaman 3: Tata Tertib & Tahapan Asesmen</h3>
         <span class="section-badge-pill">Langkah Akhir</span>
     </div>
 
-    <!-- TATA TERTIB (VERTIKAL) -->
     <div class="rules-card">
         <h3><i class="fas fa-triangle-exclamation"></i> TATA TERTIB & ATURAN ASESMEN</h3>
         <div class="rules-list">
@@ -680,7 +665,7 @@
         </div>
     </div>
 
-    <!-- TAHAP 1: APTITUDE TEST -->
+    <!-- TAHAP 1 -->
     <div class="step-card">
         <div class="step-badge">Tahap <span>01</span></div>
         <h4>Aptitude Test (Quilgo) <span class="badge-wajib">Wajib Diisi</span></h4>
@@ -697,17 +682,17 @@
             <ol>
                 <li>Masukan email atau <strong>Sign in akun Google</strong>.</li>
             </ol>
-            <img src="login-quilgo.png" alt="Login Quilgo" class="img-instruction" onerror="this.src='login-quilgo.jpg'">
+            <img src="login-quilgo" alt="Login Quilgo" class="img-instruction" onerror="this.src='login-quilgo.png'">
             
             <ol start="2">
                 <li>Setelah login, klik tombol <strong>Start Test</strong>.</li>
             </ol>
-            <img src="start-quilgo.png" alt="Start Test Quilgo" class="img-instruction" onerror="this.src='start-quilgo.jpg'">
+            <img src="start-quilgo" alt="Start Test Quilgo" class="img-instruction" onerror="this.src='start-quilgo.png'">
 
             <ol start="3">
                 <li>Klik <strong>Provide access to camera</strong> & <strong>Provide access to screen</strong> (pilih <em>Entire Screen</em> lalu <em>Share</em>). Pastikan wajah terekam jelas.</li>
             </ol>
-            <img src="provide-quilgo.png" alt="Provide Access Quilgo" class="img-instruction" onerror="this.src='provide-quilgo.jpg'">
+            <img src="provide-quilgo" alt="Provide Access Quilgo" class="img-instruction" onerror="this.src='provide-quilgo.png'">
 
             <ol start="4">
                 <li>Kerjakan tes dengan teliti, perhatikan batas waktu, lalu klik <strong>Submit</strong> jika selesai.</li>
@@ -718,7 +703,7 @@
         </a>
     </div>
 
-    <!-- TAHAP 2: PAPI KOSTICK -->
+    <!-- TAHAP 2 -->
     <div class="step-card">
         <div class="step-badge">Tahap <span>02</span></div>
         <h4>Psikotes PAPI KOSTICK <span class="badge-wajib">Wajib Diisi</span></h4>
@@ -741,7 +726,7 @@
         </a>
     </div>
 
-    <!-- TAHAP 3: DISC -->
+    <!-- TAHAP 3 DISC -->
     <div class="step-card">
         <div class="step-badge">Tahap <span>03</span></div>
         <h4>Psikotes DISC <span class="badge-wajib">Wajib Diisi</span></h4>
@@ -755,7 +740,7 @@
             </div>
             
             <!-- Foto Contoh Pengisian DISC -->
-            <img src="DISC.png" alt="Contoh Pengisian DISC" class="img-instruction" onerror="this.src='DISC.jpg'">
+            <img src="DISC" alt="Contoh Pengisian DISC" class="img-instruction" onerror="this.src='DISC.jpeg'">
 
             <p style="margin-top: 20px;"><strong>Format Penamaan File Foto Pengerjaan:</strong></p>
             <p style="font-size: 13px; color: var(--text-muted);">Silakan simpan file hasil pengerjaan DISC Anda dengan format penamaan berikut sebelum dikumpulkan:</p>
@@ -771,7 +756,7 @@
         </a>
     </div>
 
-    <!-- TAHAP 4: LEMBAR RIWAYAT HIDUP & SUBMIT -->
+    <!-- TAHAP 4 -->
     <div class="step-card">
         <div class="step-badge">Tahap <span>04</span></div>
         <h4>Lembar Riwayat Hidup & Submit Berkas <span class="badge-wajib">Wajib Diisi</span></h4>
@@ -789,7 +774,7 @@
         </div>
     </div>
 
-    <!-- FOOTER KONFIRMASI -->
+    <!-- FOOTER -->
     <div class="footer-card">
         <h3>Konfirmasi Penyelesaian Tes</h3>
         <p>Jika Anda telah merampungkan seluruh rangkaian halaman 1, 2, dan 3 di atas, silakan konfirmasikan melalui tombol berikut.</p>
